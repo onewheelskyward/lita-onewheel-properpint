@@ -1,0 +1,783 @@
+{
+  "site": {
+    "id": "b04a1770-7699-11ea-8542-23f48f169dfb",
+    "properties": {
+      "classicSiteID": "638076966129647908",
+      "selectedVertical": "restaurant",
+      "locationFilterEnabled": false,
+      "language": "en",
+      "onboarded": {
+        "guidance": {
+          "version": "1",
+          "complete": true,
+          "welcomeComplete": true,
+          "templateSwitcher": false,
+          "ostEditSitePreviewTipDismissed": false
+        },
+        "onboardingComplete": true
+      },
+      "publishedAt": 1591044767,
+      "websiteNotices": {
+        "siteSettingsTrial": true
+      },
+      "selectedVerticalLayout": "",
+      "order_fulfillment_guides": "neither",
+      "domain": {
+        "custom_domain": "",
+        "subdomain": "my-site-109373-104980",
+        "site_id": "b04a1770-7699-11ea-8542-23f48f169dfb"
+      }
+    }
+  },
+  "pagesMeta": [{
+    "id": "d967a110-a449-11ea-8315-7bb406027676",
+    "name": "Home",
+    "route": "home",
+    "title": "Home",
+    "description": "",
+    "hidden": false
+  }],
+  "snapshot": {
+    "id": "d966c180-a449-11ea-b9ec-876f071a1acc",
+    "site_id": "b04a1770-7699-11ea-8542-23f48f169dfb",
+    "properties": {
+      "logo": "https:\/\/images.editor.website\/uploads\/b\/b04a1770-7699-11ea-8542-23f48f169dfb\/ProperPintLogo.png",
+      "title": "Online Store - Proper Pint Taproom",
+      "social": [],
+      "favicon": "https:\/\/images.editor.website\/uploads\/b\/b04a1770-7699-11ea-8542-23f48f169dfb\/properpintfaviconsquare.png",
+      "fontset": {
+        "name": "butler-karla",
+        "version": "0.1.0",
+        "overrides": {}
+      },
+      "colorset": {
+        "name": "square-black",
+        "version": "0.1.0",
+        "overrides": {
+          "colors": {
+            "--secondary-color": "#ffffff"
+          }
+        }
+      },
+      "homePage": "d967a110-a449-11ea-8315-7bb406027676",
+      "homepage": {
+        "type": "page",
+        "typeID": "d967a110-a449-11ea-8315-7bb406027676"
+      },
+      "logoType": "logo",
+      "styleset": {
+        "name": "square",
+        "version": "0.1.0"
+      },
+      "framework": {
+        "name": "birdseye",
+        "version": "0.1.0"
+      },
+      "onboarded": false,
+      "blocksMeta": {
+        "6dbf6231-90b9-11ea-a097-97ced90470dc": "RspDSF",
+        "8c12d330-8bef-11ea-9cf0-956fc7f01e14": "eYfJpX",
+        "b0810a80-7699-11ea-b675-9da2471d515d": "UFsjIn",
+        "b084e460-7699-11ea-8a9a-e333e0956a8d": "lJcNCZ",
+        "b084f170-7699-11ea-93c8-218c1d602445": "eRAziD",
+        "b084fd90-7699-11ea-9f4b-fb9fc4d74b54": "SfyGdv",
+        "b0850a70-7699-11ea-a311-ef24dff9714e": "yfJHGe",
+        "b08516c0-7699-11ea-a706-070165a3ea98": "KIQqOn",
+        "b455fef1-7699-11ea-8654-afffd617e484": "TsHthA"
+      },
+      "footerLogo": "https:\/\/images.editor.website\/uploads\/b\/b04a1770-7699-11ea-8542-23f48f169dfb\/ProperPintLogo.png",
+      "navigation": [{
+        "tab": false,
+        "link": {
+          "external": "https:\/\/properpinttaproom.com\/"
+        },
+        "type": "external",
+        "title": "Back to Main Site",
+        "children": []
+      }],
+      "buttonstyle": "squared",
+      "featuresets": ["retail"],
+      "contentAreas": {
+        "cart": {
+          "id": "b08508d0-7699-11ea-8c41-6dfda2879ffb",
+          "hidden": false,
+          "content": {
+            "id": "b0850a70-7699-11ea-a311-ef24dff9714e",
+            "type": "block",
+            "layout": "cart-1",
+            "purpose": "cart@^1.1.0",
+            "elements": [{
+              "id": "b0850d30-7699-11ea-b2fe-d96d0c636ea6",
+              "purpose": "title",
+              "properties": {}
+            }, {
+              "id": "b0850ec0-7699-11ea-a318-67e16be3f1bb",
+              "purpose": "button",
+              "properties": {}
+            }, {
+              "id": "b0851050-7699-11ea-a513-73e8f12eb772",
+              "purpose": "text",
+              "properties": {}
+            }, {
+              "id": "b08511d0-7699-11ea-9318-bd37fea0b4cf",
+              "purpose": "image",
+              "properties": {}
+            }, {
+              "id": "b0851360-7699-11ea-9ec1-674a249c96dd",
+              "purpose": "close",
+              "properties": {}
+            }],
+            "properties": {
+              "shortID": "yfJHGe"
+            }
+          }
+        },
+        "footer": {
+          "id": "b084e1a0-7699-11ea-9526-c3730954060f",
+          "hidden": false,
+          "content": {
+            "id": "b084e460-7699-11ea-8a9a-e333e0956a8d",
+            "type": "block",
+            "layout": "footer-6",
+            "purpose": "footer@^1.1.0",
+            "elements": [{
+              "id": "b084e7b0-7699-11ea-b7bf-9f64028fb68e",
+              "purpose": "logo",
+              "properties": {
+                "logoDimensions": {
+                  "width": 1200,
+                  "height": 1200
+                }
+              }
+            }, {
+              "id": "b084e960-7699-11ea-ac9f-716842f4a995",
+              "purpose": "text",
+              "properties": {}
+            }, {
+              "id": "b084eb00-7699-11ea-b9f3-6f07aa79cd0d",
+              "purpose": "social",
+              "properties": {}
+            }, {
+              "id": "b084eca0-7699-11ea-9b6c-735f91ab5163",
+              "purpose": "newsletter",
+              "properties": {
+                "type": "subscription",
+                "fields": [{
+                  "id": "b084ee30-7699-11ea-92db-13fcfa9ef1a7",
+                  "type": "action-input",
+                  "label": "",
+                  "required": true,
+                  "properties": {},
+                  "instructions": ""
+                }],
+                "hidden": true,
+                "schema": {
+                  "id": "b24cc170-7699-11ea-a079-ddf6cd5bdbd2",
+                  "hash": "9b0232345eb15a93484643e7e70197df"
+                }
+              }
+            }],
+            "properties": {
+              "shortID": "lJcNCZ",
+              "background": {
+                "type": "color",
+                "color": {
+                  "value": "--secondary-color",
+                  "isDark": false
+                }
+              },
+              "navigation": {
+                "hidden": false
+              },
+              "newsletterTitle": {
+                "hidden": true
+              }
+            }
+          },
+          "properties": {
+            "styles": {
+              "minHeight": "100px"
+            }
+          }
+        },
+        "header": {
+          "id": "b084efe0-7699-11ea-9fff-0f6c63160f47",
+          "hidden": false,
+          "content": {
+            "id": "b084f170-7699-11ea-93c8-218c1d602445",
+            "type": "block",
+            "layout": "header-4",
+            "purpose": "header@^1.1.0",
+            "elements": [{
+              "id": "b1668020-7699-11ea-8654-afffd617e484",
+              "purpose": "logo",
+              "properties": {
+                "scale": 100,
+                "logoDimensions": {
+                  "width": 1200,
+                  "height": 1200
+                }
+              }
+            }, {
+              "id": "b1668021-7699-11ea-8654-afffd617e484",
+              "purpose": "social",
+              "properties": {}
+            }, {
+              "id": "b1668022-7699-11ea-8654-afffd617e484",
+              "purpose": "navigation",
+              "properties": {
+                "hidden": false
+              }
+            }, {
+              "id": "b1668023-7699-11ea-8654-afffd617e484",
+              "purpose": "hamburger",
+              "properties": {}
+            }, {
+              "id": "b1668024-7699-11ea-8654-afffd617e484",
+              "purpose": "cart",
+              "properties": {}
+            }],
+            "properties": {
+              "shortID": "eRAziD",
+              "background": {
+                "type": "color",
+                "color": {
+                  "value": "--background-color",
+                  "isDark": false
+                },
+                "transparentOverBanner": true
+              },
+              "actionButton": {
+                "hidden": true,
+                "presetColor": "--primary-color",
+                "presetStyle": "secondary"
+              },
+              "disableSearch": false
+            }
+          },
+          "properties": {
+            "styles": {
+              "minHeight": "80px"
+            }
+          }
+        },
+        "navMobile": {
+          "id": "b084fc00-7699-11ea-a3de-d7b4a2ef9c97",
+          "hidden": false,
+          "content": {
+            "id": "b084fd90-7699-11ea-9f4b-fb9fc4d74b54",
+            "type": "block",
+            "layout": "navigation-mobile",
+            "purpose": "nav-mobile@^1.1.0",
+            "elements": [{
+              "id": "b0850220-7699-11ea-bd99-4fec36c6b278",
+              "purpose": "navigation",
+              "properties": {}
+            }, {
+              "id": "b0850460-7699-11ea-a03c-9143d5d29f0f",
+              "purpose": "close",
+              "properties": {}
+            }, {
+              "id": "b0850620-7699-11ea-be01-df39552a5ad5",
+              "purpose": "social",
+              "properties": {}
+            }],
+            "properties": {
+              "shortID": "SfyGdv"
+            }
+          }
+        },
+        "freeFooter": {
+          "id": "b0851510-7699-11ea-b2dc-9bf89ca75d8e",
+          "hidden": false,
+          "content": {
+            "id": "b08516c0-7699-11ea-a706-070165a3ea98",
+            "type": "block",
+            "layout": "free-footer-1",
+            "purpose": "free-footer@^1.0.0",
+            "elements": [],
+            "properties": {
+              "shortID": "KIQqOn",
+              "background": {}
+            }
+          }
+        }
+      },
+      "homePageType": "page",
+      "pageOverrides": {
+        "product": {},
+        "shopAll": {},
+        "category": {},
+        "leaveReview": {},
+        "orderOnline": {},
+        "instagramFeed": {},
+        "searchResults": {}
+      },
+      "pageTemplates": {
+        "product": "d968e730-a449-11ea-95b6-25b9a27012f2",
+        "shopAll": "d969d6a0-a449-11ea-8c85-7746d358d978",
+        "category": "d969d6a0-a449-11ea-8c85-7746d358d978",
+        "leaveReview": "d96965d0-a449-11ea-95eb-c9b0698618f8",
+        "orderOnline": "d96a43a0-a449-11ea-930c-3f663ae73779",
+        "instagramFeed": "d96ac130-a449-11ea-9df3-cfc85b72966c",
+        "searchResults": "d969d6a0-a449-11ea-8c85-7746d358d978"
+      },
+      "passwordSettings": {
+        "hasPassword": true
+      }
+    }
+  },
+  "user": {
+    "id": 131567326,
+    "properties": {
+      "isSquareSyncUser": true
+    }
+  },
+  "billingFeatures": {
+    "billingFeatures": {
+      "com_product_limit": -1,
+      "favicon_customization": true,
+      "no_weebly_ads": true,
+      "site_code_customization": true,
+      "instagram_feed_tagging": true,
+      "quick_shop": true,
+      "site_search": true,
+      "password_protection": true,
+      "video_backgrounds": false,
+      "hd_video_and_audio": false,
+      "membership_registration": false,
+      "online_store": true,
+      "accept_paypal_payments": false,
+      "product_badges": true,
+      "product_modifiers": true,
+      "in_store_pickup": true,
+      "shipping_calculator": true,
+      "community_support": true,
+      "chat_and_email_support": true,
+      "phone_support": true,
+      "priority_support": false,
+      "advanced_ecommerce_stats": false,
+      "seo": true,
+      "real_time_shipping_calculator": false,
+      "unlimited_storage": true,
+      "abandoned_cart_emails": false,
+      "integrated_shipping_labels": false,
+      "tax_calculator": true,
+      "com_product_reviews": false,
+      "popup_lead_capture": true,
+      "square_gift_cards": true,
+      "inventory_management": true,
+      "free_ssl_security": true,
+      "com_coupons": true,
+      "integrated_facebook_ads": false,
+      "advanced_site_stats": true,
+      "custom_domain_connection": true,
+      "age_confirmation": true,
+      "square_processing_rate_id": "ECOM_SOS_PROFESSIONAL",
+      "square_processing_rate": {
+        "USD": {
+          "percent": "2.9",
+          "flat": 30
+        },
+        "AUD": {
+          "percent": "2.2",
+          "flat": 0
+        },
+        "CAD": {
+          "percent": "2.9",
+          "flat": 30
+        },
+        "GBP": {
+          "percent": "2.5",
+          "flat": 0
+        },
+        "JPY": {
+          "percent": "3.6",
+          "flat": 0
+        }
+      }
+    },
+    "isTrial": false
+  },
+  "siteFeatures": {
+    "com_product_limit": -1,
+    "favicon_customization": true,
+    "no_weebly_ads": true,
+    "site_code_customization": true,
+    "instagram_feed_tagging": true,
+    "quick_shop": true,
+    "site_search": true,
+    "password_protection": true,
+    "video_backgrounds": false,
+    "hd_video_and_audio": false,
+    "membership_registration": false,
+    "online_store": true,
+    "accept_paypal_payments": false,
+    "product_badges": true,
+    "product_modifiers": true,
+    "in_store_pickup": true,
+    "shipping_calculator": true,
+    "community_support": true,
+    "chat_and_email_support": true,
+    "phone_support": true,
+    "priority_support": false,
+    "advanced_ecommerce_stats": false,
+    "seo": true,
+    "real_time_shipping_calculator": false,
+    "unlimited_storage": true,
+    "abandoned_cart_emails": false,
+    "integrated_shipping_labels": false,
+    "tax_calculator": true,
+    "com_product_reviews": false,
+    "popup_lead_capture": true,
+    "square_gift_cards": true,
+    "inventory_management": true,
+    "free_ssl_security": true,
+    "com_coupons": true,
+    "integrated_facebook_ads": false,
+    "advanced_site_stats": true,
+    "custom_domain_connection": true,
+    "age_confirmation": true,
+    "square_processing_rate_id": "ECOM_SOS_PROFESSIONAL",
+    "square_processing_rate": {
+      "USD": {
+        "percent": "2.9",
+        "flat": 30
+      },
+      "AUD": {
+        "percent": "2.2",
+        "flat": 0
+      },
+      "CAD": {
+        "percent": "2.9",
+        "flat": 30
+      },
+      "GBP": {
+        "percent": "2.5",
+        "flat": 0
+      },
+      "JPY": {
+        "percent": "3.6",
+        "flat": 0
+      }
+    }
+  },
+  "featureset": {
+    "pages": ["category", "shopAll"],
+    "quickShop": true,
+    "search": true,
+    "blocks": ["featured-products"]
+  },
+  "gdprUrl": "https:\/\/www.weebly.com\/gdpr\/gdprscript.js?buildTime=862138f&hasRemindMe=false&allowNonWeeblyDomain=true&isUserSite=true",
+  "page": {
+    "id": "d967a110-a449-11ea-8315-7bb406027676",
+    "site_snapshot_id": "d966c180-a449-11ea-b9ec-876f071a1acc",
+    "properties": {
+      "name": "Home",
+      "route": "home",
+      "title": "Home",
+      "description": "",
+      "contentAreas": {
+        "banner": {
+          "id": "b08108c0-7699-11ea-b3f1-69cfd56948db",
+          "hidden": true,
+          "content": {
+            "id": "b0810a80-7699-11ea-b675-9da2471d515d",
+            "type": "block",
+            "layout": "banner-1",
+            "purpose": "banner@^1.2.2",
+            "elements": [{
+              "id": "b166f550-7699-11ea-8654-afffd617e484",
+              "purpose": "title-1",
+              "properties": {
+                "title": {
+                  "quill": {
+                    "ops": [{
+                      "insert": "Beer is here...\n"
+                    }]
+                  }
+                },
+                "fontSize": "small"
+              }
+            }, {
+              "id": "b166f551-7699-11ea-8654-afffd617e484",
+              "purpose": "image-1",
+              "properties": {}
+            }, {
+              "id": "b166f552-7699-11ea-8654-afffd617e484",
+              "purpose": "button-1",
+              "properties": {
+                "link": {
+                  "link": {
+                    "orderOnline": true
+                  },
+                  "type": "orderOnline"
+                },
+                "hidden": true
+              }
+            }],
+            "properties": {
+              "height": "medium",
+              "shortID": "UFsjIn",
+              "background": {
+                "type": "image",
+                "color": {
+                  "value": "--secondary-color"
+                },
+                "image": {
+                  "width": 2449,
+                  "height": 1600,
+                  "isDark": false,
+                  "source": "",
+                  "original": "",
+                  "sourceSet": {},
+                  "hasOverlay": false,
+                  "attribution": {},
+                  "cropOptions": {
+                    "end": {
+                      "x": 0.990581,
+                      "y": 0.899337
+                    },
+                    "scale": 1,
+                    "start": {
+                      "x": 0.008621,
+                      "y": 0.267914
+                    },
+                    "rotation": 0
+                  },
+                  "displayTransparent": true
+                }
+              },
+              "verticalsHidden": true
+            }
+          }
+        },
+        "userContent": {
+          "id": "b0810460-7699-11ea-a250-e79f2fc74a19",
+          "hidden": false,
+          "content": {
+            "id": "b08106c0-7699-11ea-b8be-4998fb786f2b",
+            "type": "container",
+            "cells": [{
+              "id": "8c12ac20-8bef-11ea-9cf0-956fc7f01e14",
+              "type": "cell",
+              "content": {
+                "id": "8c12d330-8bef-11ea-9cf0-956fc7f01e14",
+                "type": "block",
+                "layout": "featured-menu-items-grid",
+                "purpose": "featured-menu-items@^1.0.0",
+                "properties": {
+                  "title": {
+                    "title": {
+                      "quill": {
+                        "ops": [{
+                          "insert": "Fresh Draft 32oz Crowler Beer is Here!!\n"
+                        }]
+                      }
+                    }
+                  },
+                  "shortID": "eYfJpX",
+                  "subtitle": {
+                    "content": {
+                      "quill": {
+                        "ops": [{
+                          "insert": "We are now offering contact free Delivery and Pick Up!! \n"
+                        }]
+                      }
+                    }
+                  },
+                  "menuItems": ["539", "969", "238", "447", "921", "929", "340", "462", "615", "953", "4", "945", "568", "605", "559", "404", "548", "856", "131", "695", "783", "916", "391"],
+                  "actionButton": {
+                    "label": "\n",
+                    "hidden": true
+                  }
+                }
+              }
+            }, {
+              "id": "6dbf6230-90b9-11ea-a097-97ced90470dc",
+              "type": "cell",
+              "content": {
+                "id": "6dbf6231-90b9-11ea-a097-97ced90470dc",
+                "type": "block",
+                "layout": "featured-products-1",
+                "purpose": "featured-products@^1.0.0",
+                "elements": [{
+                  "id": "6dfe6700-90b9-11ea-a733-1b2548167a4a",
+                  "purpose": "title",
+                  "properties": {
+                    "title": {
+                      "quill": {
+                        "ops": [{
+                          "insert": "Merch!!\n"
+                        }]
+                      }
+                    },
+                    "fontSize": "large"
+                  }
+                }, {
+                  "id": "6dfe8e10-90b9-11ea-a733-1b2548167a4a",
+                  "purpose": "text",
+                  "properties": {}
+                }],
+                "properties": {
+                  "shortID": "RspDSF",
+                  "products": ["978", "892", "972", "973", "974", "975", "976"],
+                  "verticalsHidden": true
+                }
+              }
+            }, {
+              "id": "b455fef0-7699-11ea-8654-afffd617e484",
+              "type": "cell",
+              "content": {
+                "id": "b455fef1-7699-11ea-8654-afffd617e484",
+                "type": "block",
+                "layout": "location-hours-side-by-side",
+                "purpose": "location-hours@^1.0.0",
+                "properties": {
+                  "shortID": "TsHthA",
+                  "mapConfig": {
+                    "scale": 55,
+                    "theme": "standard",
+                    "location": {
+                      "lat": "37.77531",
+                      "lng": "-122.41743",
+                      "city": "San Francisco",
+                      "region": "CA",
+                      "street": "Market Street",
+                      "street2": "",
+                      "postal_code": "94103",
+                      "country_code": "",
+                      "formatted_address": "Square Inc, Market Street, San Francisco, CA 94103"
+                    }
+                  },
+                  "background": {
+                    "type": "default",
+                    "color": {
+                      "value": "--light-text-color",
+                      "isDark": false
+                    }
+                  },
+                  "hoursConfig": {
+                    "hidden": false,
+                    "content": {
+                      "quill": {
+                        "ops": [{
+                          "insert": "Monday   9:00am - 5:00pm\n",
+                          "attributes": {}
+                        }, {
+                          "insert": "Tuesday   9:00am - 5:00pm\n",
+                          "attributes": {}
+                        }, {
+                          "insert": "Wednesday   9:00am - 5:00pm\n",
+                          "attributes": {}
+                        }, {
+                          "insert": "Thursday   9:00am - 5:00pm\n",
+                          "attributes": {}
+                        }, {
+                          "insert": "Friday   9:00am - 5:00pm\n",
+                          "attributes": {}
+                        }, {
+                          "insert": "Saturday   9:00am - 5:00pm\n",
+                          "attributes": {}
+                        }, {
+                          "insert": "Sunday   Closed\n",
+                          "attributes": {}
+                        }]
+                      }
+                    }
+                  },
+                  "titleConfig": {
+                    "content": "Location & Hours",
+                    "fontSize": "medium"
+                  },
+                  "detailsConfig": {
+                    "content": {
+                      "quill": {
+                        "ops": [{
+                          "insert": "Square Inc\n",
+                          "attributes": {}
+                        }, {
+                          "insert": "Market Street\n",
+                          "attributes": {}
+                        }, {
+                          "insert": "San Francisco, CA 94103\n",
+                          "attributes": {}
+                        }, {
+                          "insert": "(555) 555-5555\n",
+                          "attributes": {
+                            "wLink": {
+                              "tab": false,
+                              "link": {
+                                "phone": "(555) 555-5555"
+                              },
+                              "type": "phone"
+                            }
+                          }
+                        }, {
+                          "insert": "hi@mystore.com\n",
+                          "attributes": {
+                            "wLink": {
+                              "tab": false,
+                              "link": {
+                                "email": "hi@mystore.com"
+                              },
+                              "type": "email"
+                            }
+                          }
+                        }]
+                      }
+                    },
+                    "displayEmail": true,
+                    "displayPhone": true,
+                    "displayStoreName": true
+                  },
+                  "syncedLocation": {
+                    "lat": "37.77532",
+                    "lng": "-122.41744",
+                    "city": "SAN FRANCISCO",
+                    "email": null,
+                    "hours": [{
+                      "day": "Monday",
+                      "time": " 9:00am - 5:00pm"
+                    }, {
+                      "day": "Tuesday",
+                      "time": " 9:00am - 5:00pm"
+                    }, {
+                      "day": "Wednesday",
+                      "time": " 9:00am - 5:00pm"
+                    }, {
+                      "day": "Thursday",
+                      "time": " 9:00am - 5:00pm"
+                    }, {
+                      "day": "Friday",
+                      "time": " 9:00am - 5:00pm"
+                    }, {
+                      "day": "Saturday",
+                      "time": "Closed"
+                    }, {
+                      "day": "Sunday",
+                      "time": "Closed"
+                    }],
+                    "phone": null,
+                    "region": "CA",
+                    "street": "1455 MARKET ST STE 600",
+                    "street2": "",
+                    "locationId": "11ea76980f68c080a2130cc47a2ae378",
+                    "postal_code": "94103",
+                    "country_code": "US",
+                    "business_name": "Nosh",
+                    "formatted_address": "1455 MARKET ST STE 600 SAN FRANCISCO, CA 94103, US"
+                  },
+                  "actionButtonConfig": {
+                    "label": "\n",
+                    "presetSize": "large"
+                  }
+                }
+              }
+            }]
+          }
+        }
+      }
+    }
+  }
+}
