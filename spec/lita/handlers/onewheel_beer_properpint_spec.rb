@@ -11,7 +11,7 @@ describe Lita::Handlers::OnewheelBeerProperPint, lita_handler: true do
 
   it 'shows the taps' do
     send_command 'proper'
-    expect(replies.last).to eq("Proper's taps: 1) Sticky Hands IIPA Block 15  2) Montavilla Lil' More Righteous ISA  3) Helles Lager Rosenstadt  4) Topcutter IPA Bale Breaker  5) Leafwalker Red Bent Shovel  6) 54-40 Belgium Quad Avant Garde A Clue  7) Old Town Glow Torch  8) Forgeberry Tart Ale Ale Smith  9) Wanderlust IPA Breakside  10) Empire of the Clouds NEIPA Grains of Wrath  11) Oatis Stout Ninkasi  12) Upright Three Deadly Hops Amber   13) Bone Dry Cuvee Cider Swift  14) Pipp Crush Cider  15) Grapefruit Hibiscus Beet BoochCraft Hard Kombucha  16) Underberg")
+    expect(replies.last).to eq("Proper's taps: 1) Sticky Hands IIPA Block 15  2) Montavilla Lil' More Righteous ISA  3) Helles Lager Rosenstadt  4) Topcutter IPA Bale Breaker  5) Leafwalker Red Bent Shovel  6) 54-40 Belgium Quad Avant Garde A Clue  7) Old Town Glow Torch  8) Forgeberry Tart Ale Ale Smith  9) Wanderlust IPA Breakside  10) Empire of the Clouds NEIPA Grains of Wrath  11) Oatis Stout Ninkasi  12) Upright Three Deadly Hops Amber   13) Bone Dry Cuvee Cider Swift  14) Pipp Crush Cider  15) Grapefruit Hibiscus Beet BoochCraft Hard Kombucha  16) Underberg   Order now at https://my-site-109373-104980.square.site/")
   end
 
   it 'displays details for tap 4' do
