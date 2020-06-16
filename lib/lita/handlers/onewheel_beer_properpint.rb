@@ -83,24 +83,14 @@ module Lita
         end
 
         live_products.each_with_index do |beer, idx|
-          tap = idx
+          tap = idx + 1
           tap_type = ''
-        #   brewery = get_brewery(beer_node)
-          beer_name = beer['name']
-        #   beer_desc = get_beer_desc(beer_node)
-        #   abv = get_abv(beer_desc)
+          beer_name = beer['name'].sub(/ 32oz Crowler/, '')
           full_text_search = "#{tap} #{beer_name}"
-        #   prices = get_prices(beer_node)
-        #
+
           gimme_what_you_got[tap] = {
               type: tap_type,
-        #       remaining: remaining,
-        #       brewery: brewery.to_s,
               name: beer_name.to_s,
-        #       desc: beer_desc.to_s,
-        #       abv: abv.to_f,
-        #       prices: prices,
-        #       price: prices[1][:cost],
               search: full_text_search
           }
         end
