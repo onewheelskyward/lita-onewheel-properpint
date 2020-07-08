@@ -49,8 +49,9 @@ module Lita
       def get_source
         # unless (response = redis.get('page_response'))
         #   Lita.logger.info 'No cached result found, fetching.'
-        Lita.logger.info 'Getting https://my-site-109373-104980.square.site'
-        response = RestClient.get('https://my-site-109373-104980.square.site')
+        url = 'https://my-site-109373-104980.square.site/dine-in'
+        Lita.logger.info "Getting #{url}"
+        response = RestClient.get(url)
           # redis.setex('page_response', 1800, response)
         # end
         parse_response response
