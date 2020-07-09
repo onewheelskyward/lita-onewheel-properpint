@@ -30,7 +30,7 @@ module Lita
         end
         reply = reply.strip.sub /,\s*$/, ''
 
-        reply += "   Order now at https://my-site-109373-104980.square.site/"
+        reply += "   Order now at https://my-site-109373-104980.square.site/dine-in"
         Lita.logger.info "Replying with #{reply}"
         response.reply reply
       end
