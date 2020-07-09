@@ -68,7 +68,7 @@ module Lita
         response.split(/\n/).each do |line|
           if matches = line.match(/window.siteData = (.*)/)
             site_hash = JSON.parse matches[1].sub /;$/, ''
-            valid_products = site_hash['page']['properties']['contentAreas']['userContent']['content']['cells'][0]['content']['properties']['menuItems']
+            valid_products = site_hash['page']['properties']['contentAreas']['userContent']['content']['cells'][0]['content']['properties']['products']
           end
           if matches = line.match(/window.__BOOTSTRAP_STATE__ = (.*)/)
             whatevenintheshitsquarespace = JSON.parse matches[1].sub /;$/, ''
