@@ -41,6 +41,8 @@ module Lita
         # reply += "- #{datum[:desc]}, "
         # reply += "Served in a #{datum[1]['glass']} glass.  "
 
+        reply += "   Order now at https://my-site-109373-104980.square.site/dine-in"
+
         Lita.logger.info "send_response: Replying with #{reply}"
 
         response.reply reply
